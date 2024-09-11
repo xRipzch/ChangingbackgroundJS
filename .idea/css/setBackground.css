@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+}
+
+.inpColor {
+    margin-left: 100px;
+}
+.pbSetColor {
+    scale: 1.2;
+    margin-left: 5px;
+}
+
+
+.font-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#increaseFontSize {
+    background-color: #ffffff;
+    top: 50px;
+    left: 10px;
+    transform: scale(1.05);
+    margin-left: 370px;
+}
+
+#decreaseFontSize {
+    background-color: #ffffff;
+    top: 50px;
+    left: 60px;
+    margin-left: 10px;
+    transform: scale(1.05);
+}
+#\31 {
+    scale: 2;
+    margin-top: 30px;
+    margin-left: 130px;
+;
+}
+
+h1 {
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: black solid 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    transition: font-size 0.3s ease;
+}
